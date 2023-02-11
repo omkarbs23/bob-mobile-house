@@ -6,3 +6,5 @@
 <b> Project's Demo :- </b> http://omkarbs23.pythonanywhere.com/
 
 <b> Static Sample Page :- </b> https://omkarbs23.github.io/bob-mobile-house/
+
+<b> Description :- </b> This project utilizes a "Support Vector Classifier" algorithm that has been optimized to its maximum potential through hyperparameter tuning.
