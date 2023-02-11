@@ -1,5 +1,303 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pastel Woozy Llama</title>
+    <meta property="og:title" content="Pastel Woozy Llama" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+    <link rel="stylesheet" href="../static/style.css" />
+  </head>
   <body>
-    <h1> hello world </h1>
+    <div>
+      <link href="../static/home.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <header data-role="Header" class="home-header">
+          <h1 class="home-text">BOB Mobile House</h1>
+          <div class="home-icon-group">
+            <div data-role="BurgerMenu" class="home-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="home-icon">
+                <path
+                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div data-role="MobileMenu" class="home-mobile-menu">
+            <nav class="home-nav">
+              <div class="home-container01">
+                <img
+                  alt="image"
+                  src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
+                  class="home-image"
+                />
+                <div data-role="CloseMobileMenu" class="home-close-mobile-menu">
+                  <svg viewBox="0 0 1024 1024" class="home-icon02">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav
+                class="navigation-links-nav navigation-links-root-class-name13"
+              >
+                <span class="navigation-links-text"><span>About</span></span>
+                <span class="navigation-links-text1">
+                  <span>Features</span>
+                </span>
+                <span class="navigation-links-text2"><span>Pricing</span></span>
+                <span class="navigation-links-text3"><span>Team</span></span>
+                <span class="navigation-links-text4"><span>Blog</span></span>
+              </nav>
+            </nav>
+            <div>
+              <svg viewBox="0 0 950.8571428571428 1024" class="home-icon04">
+                <path
+                  d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                ></path></svg
+              ><svg viewBox="0 0 877.7142857142857 1024" class="home-icon06">
+                <path
+                  d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                ></path></svg
+              ><svg viewBox="0 0 602.2582857142856 1024" class="home-icon08">
+                <path
+                  d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </header>
+        <div class="home-hero">
+          <h1 class="home-text01">Predict the Price of&nbsp;</h1>
+        </div>
+        <div class="home-steps">
+          <h1 class="home-text02"><span>Discover Our Process</span></h1>
+          <span class="home-text04">
+            <span>The way we do it...</span>
+            <br />
+          </span>
+          <div class="home-container02">
+            <div class="home-step">
+              <div class="home-container03">
+                <div class="home-line"></div>
+                <div class="home-container04">
+                  <svg viewBox="0 0 1024 1024" class="home-icon10">
+                    <path
+                      d="M864 0c88.364 0 160 71.634 160 160 0 36.020-11.91 69.258-32 96l-64 64-224-224 64-64c26.742-20.090 59.978-32 96-32zM64 736l-64 288 288-64 592-592-224-224-592 592zM715.578 363.578l-448 448-55.156-55.156 448-448 55.156 55.156z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="home-line1"></div>
+              </div>
+              <div class="home-container05">
+                <h1 class="home-text07">Input the Details</h1>
+              </div>
+            </div>
+            <div class="home-step1">
+              <div class="home-container06">
+                <div class="home-line2"></div>
+                <div class="home-container07">
+                  <svg viewBox="0 0 1024 1024" class="home-icon12">
+                    <path
+                      d="M384 64h-320c-35.2 0-64 28.8-64 64v320c0 35.2 28.796 64 64 64h320c35.2 0 64-28.8 64-64v-320c0-35.2-28.8-64-64-64zM384 320h-320v-64h320v64zM896 64h-320c-35.204 0-64 28.8-64 64v832c0 35.2 28.796 64 64 64h320c35.2 0 64-28.8 64-64v-832c0-35.2-28.8-64-64-64zM896 640h-320v-64h320v64zM896 448h-320v-64h320v64zM384 576h-320c-35.2 0-64 28.8-64 64v320c0 35.2 28.796 64 64 64h320c35.2 0 64-28.8 64-64v-320c0-35.2-28.8-64-64-64zM384 832h-128v128h-64v-128h-128v-64h128v-128h64v128h128v64z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="home-line3"></div>
+              </div>
+              <div class="home-container08">
+                <h1 class="home-text08">Click on Predict</h1>
+              </div>
+            </div>
+            <div class="home-step2">
+              <div class="home-container09"><div class="home-line4"></div></div>
+            </div>
+            <div class="home-step3">
+              <div class="home-container10">
+                <div class="home-line5"></div>
+                <div class="home-container11">
+                  <svg viewBox="0 0 513.1702857142857 1024" class="home-icon14">
+                    <path
+                      d="M513.143 268.571v58.286c0 10.286-8 18.286-18.286 18.286h-96c-17.714 109.714-101.714 181.143-231.429 196.571 85.143 90.857 176 200.571 262.286 306.286 4.571 5.143 5.714 13.143 2.286 19.429-2.857 6.286-9.143 10.286-16.571 10.286h-111.429c-5.714 0-10.857-2.286-14.286-6.857-92-110.286-176.571-211.429-284.571-326.286-3.429-3.429-5.143-8-5.143-12.571v-72.571c0-9.714 8-18.286 18.286-18.286h64c100.571 0 163.429-33.714 180-96h-244c-10.286 0-18.286-8-18.286-18.286v-58.286c0-10.286 8-18.286 18.286-18.286h236c-21.714-42.857-73.143-64.571-153.143-64.571h-82.857c-10.286 0-18.286-8.571-18.286-18.286v-76c0-10.286 8-18.286 18.286-18.286h475.429c10.286 0 18.286 8 18.286 18.286v58.286c0 10.286-8 18.286-18.286 18.286h-133.143c18.286 23.429 30.286 50.857 36.571 82.286h97.714c10.286 0 18.286 8 18.286 18.286z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="home-line6"></div>
+              </div>
+              <div class="home-container12">
+                <h1 class="home-text09">
+                  <span>Get the Prediction</span>
+                  <br />
+                </h1>
+                <span class="home-text12">
+                  <span>&nbsp;</span>
+                  <br />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form name="predict" method="post" action="/predict">
+        <div class="home-hero1">
+          <div class="home-container13">
+            <input
+              type="number"  required step="0.1"  name="battery_power"
+              placeholder="Battery Power"
+              class="home-textinput input"
+            />
+            <input
+              type="number"  required step="0.1"  name="blue"
+              placeholder="Bluetooth"
+              class="home-textinput01 input"
+            />
+            <input
+              type="number"  required step="0.1"  name="clock_speed"
+              placeholder="Clock Speed"
+              class="home-textinput02 input"
+            />
+            <input
+              type="number"  required step="0.1"  name="dual_sim"
+              placeholder="dual_sim"
+              class="home-textinput03 input"
+            />
+          </div>
+          <div class="home-container14"></div>
+          <div class="home-container15">
+            <input
+              type="number"  required step="0.1"  name="fc"
+              placeholder="fc"
+              class="home-textinput04 input"
+            />
+            <input
+              type="number"  required step="0.1"  name="four_g"
+              placeholder="four_g"
+              class="home-textinput05 input"
+            />
+            <input
+              type="number"  required step="0.1"  name="int_memory"
+              placeholder="int_memory"
+              class="home-textinput06 input"
+            />
+            <input
+              type="number"  required step="0.1"  name="m_dep"
+              placeholder="m_dep"
+              class="home-textinput07 input"
+            />
+          </div>
+          <div class="home-container16"></div>
+          <div class="home-container17">
+            <input
+              type="number"  required step="0.1"  name="mobile_wt"
+              placeholder="mobile_wt"
+              class="home-textinput08 input"
+            />
+            <input
+              type="number"  required step="0.1"  name="n_cores"
+              placeholder="n_cores"
+              class="home-textinput09 input"
+            />
+            <input
+              type="number"  required step="0.1"  name="pc"
+              placeholder="pc"
+              class="home-textinput10 input"
+            />
+            <input
+              type="number"  required step="0.1"  name="px_height"
+              placeholder="px_height"
+              class="home-textinput11 input"
+            />
+          </div>
+          <div class="home-container18"></div>
+          <div class="home-container19">
+            <input
+              type="number"  required step="0.1"  name="px_width"
+              placeholder="px_width"
+              class="home-textinput12 input"
+            />
+            <input
+              type="number"  required step="0.1"  name="ram"
+              placeholder="ram"
+              class="home-textinput13 input"
+            />
+            <input
+              type="number"  required step="0.1"  name="sc_h"
+              placeholder="sc_h"
+              class="home-textinput14 input"
+            />
+            <input
+              type="number"  required step="0.1"  name="sc_w"
+              placeholder="sc_w"
+              class="home-textinput15 input"
+            />
+          </div>
+          <div class="home-container20"></div>
+          <div class="home-container21">
+            <input
+              type="number"  required step="0.1"  name="talk_time"
+              placeholder="talk_time"
+              class="home-textinput16 input"
+            />
+            <input
+              type="number"  required step="0.1"  name="three_g"
+              placeholder="three_g"
+              class="home-textinput17 input"
+            />
+            <input
+              type="number"  required step="0.1"  name="touch_screen"
+              placeholder="touch_screen"
+              class="home-textinput18 input"
+            />
+            <input
+              type="number"  required step="0.1"  name="wifi"
+              placeholder="wifi"
+              class="home-textinput19 input"
+            />
+          </div>
+          <button class="home-button button" type="submit" name="submit" id="predict" >Predict</button>
+          <div class="home-testimonial-card">
+            <div class="home-testimonial">
+              <span class="home-text15">Price of Mobile should be : {{ pred_ans  }}</span>
+            </div>
+          </div>
+        </div>
+</form>
+      </div>
+    </div>
+    <script
+      data-section-id="header"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </body>
 </html>
