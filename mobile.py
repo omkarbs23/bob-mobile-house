@@ -2,7 +2,7 @@ from flask import *
 import numpy as np
 import pickle
 
-model = pickle.load(open("D:\IT-VEDANT\project\Bob Mobile House\H_SVC_model.pkl","rb"))
+model = pickle.load(open("H_SVC_model.pkl","rb"))
 
 
 
